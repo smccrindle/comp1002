@@ -1,0 +1,57 @@
+html {
+	background-color: #32689A;
+}
+body {
+	font-size: 100%;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #333;
+	width: 760px;
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 2em 2em 4em 2em;
+	border-radius: 5px;
+}
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	letter-spacing: -0.08em;
+	font-style: italic;
+	color: #32689A;
+}
+h1 em {
+	color: #001c64;
+}
+h2 {
+	color: #C88039;
+}
+fieldset {
+	border: 1px solid #AAA;
+	margin: 1em 0;
+}
+legend {
+	font-size: 75%;
+	text-transform: uppercase;
+	color: #AAA;
+}
+fieldset div {
+	margin-bottom: 0.5em;
+}
+div label {
+	display: block;
+	width: 200px;
+	float: left;
+	text-align: right;
+	padding-right: 1em;
+}
+input[required] {
+
+}
+label.error {
+	color: red;
+	float: right;
+}
+label img {
+	vertical-align: middle;
+}
+small {
+	font-size: 70%;
+}
